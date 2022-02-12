@@ -1,0 +1,75 @@
+// icon scss
+.icons__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            border-bottom: 4px solid #02B1E7;
+            cursor: pointer;
+        }
+
+        .connect_img{
+            width: 60px;
+        }
+    }
+}
+
+// Blur Quote sign
+
+.Quote__icon{
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 20%;
+
+    img{
+        width: 100%;
+    }
+}
+
+// sidebar scss
+
+.location__container{
+    position: relative;
+    width: 60%;
+    padding: 20px;
+    right: 10%;
+    background-color: #052d6d;
+    height: 100px;
+    color: #ffff;
+    top: 80%;
+    justify-content: space-between;
+
+   .location__box{
+       position: absolute;
+       display: flex;
+       color: #ffff;
+       align-items: center;
+       font-size: 12px;
+   }
+
+   span{
+       position: absolute;
+       top: 70px;
+       left: 33px;
+       font-size: 12px;
+   }
+}
+
+// empty container scss
+
+.empty__container{
+    position: absolute;
+    width: 145px;
+    height: 151px;
+    border: 5px solid #FFFFFF;
+    opacity: 0.2;
+    left: 15%;
+    top: 40%;
+}

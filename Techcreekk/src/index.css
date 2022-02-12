@@ -1,0 +1,81 @@
+.icons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.icons__container a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons__container a:hover {
+  border-bottom: 4px solid #02B1E7;
+  cursor: pointer;
+}
+
+.icons__container a .connect_img {
+  width: 60px;
+}
+
+.Quote__icon {
+  width: 150px;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.Quote__icon img {
+  width: 100%;
+}
+
+.location__container {
+  position: relative;
+  width: 60%;
+  padding: 20px;
+  right: 10%;
+  background-color: #052d6d;
+  height: 100px;
+  color: #ffff;
+  top: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.location__container .location__box {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+.location__container span {
+  position: absolute;
+  top: 70px;
+  left: 33px;
+  font-size: 12px;
+}
+
+.empty__container {
+  position: absolute;
+  width: 145px;
+  height: 151px;
+  border: 5px solid #FFFFFF;
+  opacity: 0.2;
+  left: 15%;
+  top: 40%;
+}
+/*# sourceMappingURL=index.css.map */
